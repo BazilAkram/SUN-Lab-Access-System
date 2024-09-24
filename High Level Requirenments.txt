@@ -1,0 +1,19 @@
+Database
+	-The system MUST retain all records of access for a period of at least five (5) years.
+	-The database MUST support queries to filter by student ID, date, and time range.
+	-The system MAY store student ID numbers and timestamps in a relational database.
+
+User Interface
+	-The system MUST provide a Graphical User Interface (GUI) for administrative functions.
+	-The GUI MUST allow an authorized admin to browse the history of the SUN Lab access records.
+	-The GUI MUST support filtering access history by date, time range, and student ID.
+	-The GUI SHALL provide clear visual feedback of the filter operations.
+
+Access Control
+	-The system MUST log each access (entry and exit) when a student swipes their card.
+	-The system MUST record the student ID number and the timestamp for each swipe.
+	-The system MUST allow only authorized admins to perform browse and search operations.
+
+Future Extensibility
+	-The system SHALL be designed to support multiple user types in the future, including faculty members, staff, and janitors.
+	-The system SHALL allow for future functionality, including the ability for admins to activate, suspend, and reactivate ID cards.
